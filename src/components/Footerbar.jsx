@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footerbar = () => {
   return (
-    <div>Footerbar</div>
+    <div></div>
   )
 }
 

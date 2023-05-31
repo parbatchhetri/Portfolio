@@ -1,6 +1,7 @@
 import React from 'react'
-import {BiHome  } from 'react-icons/bi'
-import {AiOutlineUser } from 'react-icons/ai'
+import {BiHome,BiBriefcaseAlt2  } from 'react-icons/bi'
+import {AiOutlineUser,AiOutlineFileImage,AiOutlineSend } from 'react-icons/ai'
+import {BsFileEarmarkRichtext } from 'react-icons/bs'
 
 const Header = () => {
   return (
@@ -18,26 +19,25 @@ const Header = () => {
       </div>
 
       <div >
-        <BiHome className="ml-3"/>
+        <BsFileEarmarkRichtext className="ml-3"/>
         <div>Home</div>
       </div>
 
       <div >
-        <BiHome className="ml-3"/>
+        <BiBriefcaseAlt2 className="ml-3"/>
         <div>Home</div>
       </div>
 
       <div >
-        <BiHome className="ml-3"/>
-        <div>Home</div>
+        <AiOutlineFileImage className="ml-4"/>
+        <div>Services</div>
       </div>
 
       <div >
-        <BiHome className="ml-3"/>
-        <div>Home</div>
+        <AiOutlineSend className='ml-4'/>
+        <div>Portfolio</div>
       </div>
       
-
       
     </div>
   </div>
