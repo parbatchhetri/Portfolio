@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header"
+import Footerbar from "./components/Footerbar";
+import Middlebar from "./components/Middlebar";
 
 function App() {
   return (
-    <div className=" p-5 font-bold ">
- Parvat
+    <div>
+      <Header />
+      <Middlebar/>
+      <Footerbar />
     </div>
-  );
+  )
 }
 
 export default App;
