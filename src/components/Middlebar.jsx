@@ -2,9 +2,11 @@ import React from 'react'
 import{ AiOutlineInstagram,AiFillLinkedin} from "react-icons/ai"
 import{ VscGithubAlt} from "react-icons/vsc"
 import {BsSend} from 'react-icons/bs'
+import photo1 from '../assets/photo1.jpg'
+
 const Middlebar = () => {
   return (
-    <div className='flex '>
+    <div className='flex pl-10'>
     <div className='flex flex-col gap-8 pl-40 pt-60'>
    <AiOutlineInstagram className=' text-xl'/>
      <AiFillLinkedin className=' text-xl'/>
@@ -24,7 +26,8 @@ const Middlebar = () => {
       <h1 className='font-semibold text-white'>Say Hello</h1>
       <BsSend className=' text-white text-xl'/>
      </div>
-       </div>
+     </div>
+       <img src={photo1} alt='pp' className='rounded-full w-[250px] h-[250px] mt-44 ml-14'/>
 
      
     </div>
