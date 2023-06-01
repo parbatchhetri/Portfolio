@@ -5,37 +5,37 @@ import {BsFileEarmarkRichtext } from 'react-icons/bs'
 
 const Header = () => {
   return (
-    <div className=" flex pl-44 pt-5 justify-between mr-80">
-    <div className="  font-bold ">Parvat</div>
-    <div className="flex gap-8 items-center justify-center">
-      <div >
-        <BiHome className="ml-3"/>
+    <div className=" flex pl-44 pt-5 justify-between mr-72">
+    <div className="  font-semibold text-lg">Parvat</div>
+    <div className="flex gap-8 items-center justify-center font-semibold">
+      <div className=' flex flex-col items-center ' >
+        <BiHome className=""/>
         <div>Home</div>
       </div>
 
-      <div >
-        <AiOutlineUser className="ml-3"/>
-        <div>Home</div>
+      <div className=' flex flex-col items-center '>
+        <AiOutlineUser className=""/>
+        <div>About</div>
       </div>
 
-      <div >
-        <BsFileEarmarkRichtext className="ml-3"/>
-        <div>Home</div>
+      <div className=' flex flex-col items-center '>
+        <BsFileEarmarkRichtext className=""/>
+        <div>Skills</div>
       </div>
 
-      <div >
-        <BiBriefcaseAlt2 className="ml-3"/>
-        <div>Home</div>
-      </div>
-
-      <div >
-        <AiOutlineFileImage className="ml-4"/>
+      <div className=' flex flex-col items-center '>
+        <BiBriefcaseAlt2 className=""/>
         <div>Services</div>
       </div>
 
-      <div >
-        <AiOutlineSend className='ml-4'/>
+      <div className=' flex flex-col items-center '>
+        <AiOutlineFileImage className=""/>
         <div>Portfolio</div>
+      </div>
+
+      <div className=' flex flex-col items-center '>
+        <AiOutlineSend className=''/>
+        <div>Contact</div>
       </div>
       
       
