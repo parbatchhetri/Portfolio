@@ -27,7 +27,7 @@ const Middlebar = () => {
       <BsSend className=' text-white text-xl'/>
      </div>
      </div>
-       <img src={photo1} alt='pp' className='rounded-full w-[300px] h-[300px] mt-44 ml-14'/>
+       <img src={photo1} alt='pp' className='rounded-full w-[300px] h-[300px] mt-44 ml-14 object-cover'/>
 
      
     </div>

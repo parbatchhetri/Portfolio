@@ -10,7 +10,7 @@ const Aboutme = () => {
         <p className="text-sm text-gray-400">My Introduction</p>
       </div>
       <div className="flex justify-center mt-11">
-        <img src={photo1} alt="pp" className="rounded-3xl w-[350px] h-[350px] mt-3" />
+        <img src={photo1} alt="pp" className="rounded-3xl w-[350px] h-[350px] mt-3 object-cover" />
 
         <div className="mt-4 ml-20">
           <div className="flex gap-4">
