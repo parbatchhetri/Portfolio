@@ -2,7 +2,9 @@ import React from 'react'
 
 const Qualification = () => {
   return (
-    <div></div>
+    <div>
+      afafae
+    </div>
   )
 }
 
