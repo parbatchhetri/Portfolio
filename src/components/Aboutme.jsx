@@ -5,7 +5,7 @@ import { BiAward, BiBriefcaseAlt, BiHeadphone,BiFile } from "react-icons/bi";
 const Aboutme = () => {
   return (
     <div>
-      <div className="flex flex-col mt-[135px] items-center gap-1">
+      <div className="flex flex-col mt-[150px] items-center gap-1">
         <h1 className="font-bold text-3xl">About Me</h1>
         <p className="text-sm text-gray-400">My Introduction</p>
       </div>

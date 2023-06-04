@@ -7,15 +7,17 @@ import Aboutme from "./components/Aboutme";
 import Skills from "./components/Skills";
 import Services from "./components/Services";
 import Qualification from './components/Qualification';
+import Cilent from "./components/Cilent";
 function App() {
   return (
     <div>
       <Header />
       <Middlebar/>
-      <Timeline />
       <Aboutme />
       <Skills/>
       <Services/>
+      <Timeline />
+      <Cilent/>
       <Qualification/>
       <Footerbar />
 
