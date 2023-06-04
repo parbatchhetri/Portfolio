@@ -12,12 +12,12 @@ function App() {
     <div>
       <Header />
       <Middlebar/>
-      <Footerbar />
       <Timeline />
       <Aboutme />
       <Skills/>
       <Services/>
       <Qualification/>
+      <Footerbar />
 
     </div>
   )
