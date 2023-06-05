@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header"
 import Footerbar from "./components/Footerbar";
 import Middlebar from "./components/Middlebar";
-import Timeline from "./components/Timeline";
+import Lifeline from "./components/Lifeline";
 import Aboutme from "./components/Aboutme";
 import Skills from "./components/Skills";
 import Services from "./components/Services";
@@ -16,7 +16,7 @@ function App() {
       <Aboutme />
       <Skills/>
       <Services/>
-      <Timeline />
+      <Lifeline />
       <Cilent/>
       <Qualification/>
       <Footerbar />
