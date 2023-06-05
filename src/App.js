@@ -11,6 +11,7 @@ import Cilent from "./components/Cilent";
 function App() {
   return (
     <div>
+    
       <Header />
       <Middlebar/>
       <Aboutme />
@@ -19,6 +20,7 @@ function App() {
       <Lifeline />
       <Cilent/>
       <Qualification/>
+      
       <Footerbar />
 
     </div>
