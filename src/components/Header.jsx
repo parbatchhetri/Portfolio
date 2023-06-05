@@ -6,7 +6,7 @@ import {BsFileEarmarkRichtext } from 'react-icons/bs'
 const Header = () => {
   return (
     <div className=" flex pl-44 pt-5 justify-between mr-72">
-    <div className="  font-semibold text-lg">Parvat</div>
+    <div className="  font-bold text-3xl">Parvat</div>
     <div className="flex gap-8 items-center justify-center font-semibold">
       <div className=' flex flex-col items-center ' >
         <BiHome className=""/>

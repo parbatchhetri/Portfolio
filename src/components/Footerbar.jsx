@@ -4,7 +4,7 @@ import {FiTwitter} from "react-icons/fi"
 import {AiOutlineCopyrightCircle} from "react-icons/ai"
 const Footerbar = () => {
   return (
-    <div className='mt-16 border-[3px]'>
+    <div className='mt-16 border-[2px] bg-slate-300'>
       <div className='flex flex-col items-center mt-8'>
         <h1 className='font-semibold text-black text-2xl'> Chhetri</h1>
         <div className='flex  justify-center items-center gap-8 mt-5 '>
