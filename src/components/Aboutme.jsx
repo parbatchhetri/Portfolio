@@ -1,6 +1,8 @@
 import React from "react";
 import photo1 from "../assets/photo1.jpg";
 import { BiAward, BiBriefcaseAlt, BiHeadphone,BiFile } from "react-icons/bi";
+import parvat from '../assets/parbat.pdf'
+
 
 const Aboutme = () => {
   return (
@@ -38,8 +40,10 @@ const Aboutme = () => {
             carried out.
           </h1>
           <div className='w-[150px] h-[50px] bg-black rounded-2xl mt-8 flex items-center  gap-1 justify-center'>
-          <h1 className='font-semibold text-white'>Download CV</h1>
+          <a href= {parvat} alt="pp" className='font-semibold text-white'>Download CV</a>
+          
          <BiFile className=' text-white text-2xl '/>
+         
            </div>
 
         </div>

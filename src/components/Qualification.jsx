@@ -17,7 +17,7 @@ const Qualification = () => {
           <h1 className=''>Email</h1>
           <p className=''>user@gmail.com</p>
           <div className='flex '>
-          <p className='text-xs '>write me</p>
+          <a href="mailto:parbat.chhetri79@gmail.com" className='text-xs cursor-pointer '>write me</a>
           <BsArrowRightShort className='text-sm'/>
           </div>
            </div>
@@ -26,7 +26,7 @@ const Qualification = () => {
           <h1 className=''>Whatsapp</h1>
           <p className=''>9865027677</p>
           <div className='flex '>
-          <p className='text-xs '>write me</p>
+          <a href="https://web.whatsapp.com/" className='text-xs cursor-pointer '>write me</a>
           <BsArrowRightShort className='text-sm'/>
           </div>
            </div>
@@ -35,7 +35,8 @@ const Qualification = () => {
           <h1 className=''>Messenger</h1>
           <p className=''>user123.fb</p>
           <div className='flex '>
-          <p className='text-xs '>write me</p>
+            <a href="https://www.messenger.com/t/100088676001315" className='text-xs cursor-pointer '>write me</a>
+          
           <BsArrowRightShort className='text-sm'/>
           </div>
            </div>
