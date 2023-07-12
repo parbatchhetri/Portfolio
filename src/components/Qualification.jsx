@@ -48,14 +48,14 @@ const Qualification = () => {
        
         <div className='flex flex-col gap-5'>
         <h1 className='ml-20'>Write me a project</h1>
-        <div className='w-[300px] h-[50px] bg-white rounded-xl border-[3px]'> 
-        <h1 className='mt-2 ml-3 text-gray-400'>Insert Your Name</h1>
+        <div className=' w-[300px] h-[50px] bg-white rounded-xl border-[3px]' > 
+         <input placeholder='Insert Your Name' className='mt-2 ml-3 text-gray-400 w-[270px] outline-none' ></input>
         </div>
         <div className='w-[300px] h-[50px] bg-white rounded-xl border-[3px]'>
-        <h1 className='mt-2 ml-3 text-gray-400'>Insert Your Email</h1>
+        <input placeholder='Insert Your Email' className='mt-2 ml-3 text-gray-400 w-[270px] outline-none'></input>
         </div>
         <div className='w-[300px] h-[230px] bg-white rounded-xl border-[3px]'>
-         <h1 className='mt-2 ml-3 text-gray-400'> Write your Project</h1>
+         <textarea placeholder='Write your Project' className='mt-2 ml-3 text-gray-400 w-[270px] h-[210px]  outline-none'></textarea>
         </div>
         <div className='w-[180px] h-[50px] bg-black rounded-2xl flex items-center  gap-2 justify-center'>
           <h1 className='font-semibold text-white'>Send Messages</h1>
